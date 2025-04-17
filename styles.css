@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-width: 100vw;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+body{
+    margin:2rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content : center;
+    /* background-color: red; */
+    gap: 2rem;
+    font-size: 32px;
+}
+
+img{
+    display:block;
+    margin: 1rem 0rem;
+}
+
+section{
+    padding: 2rem;
+
+}
+h1{
+    
+    font-size: 64px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0.21em;
+    text-decoration-thickness: 2px;
+}
+
+a{
+    color: black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+}
+i{
+    font-weight: 800;
+}
+
+.top-section{
+    border: 2px solid black;
+    /* background-color: gray; */
+}
+.image-section{
+    /* background-color: crimson; */
+}
+.trivia-section{
+    /* background-color: blue; */
+}
+
